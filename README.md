@@ -24,6 +24,19 @@ function hello() {
         }
 ```
 ```HTML
-<button onClick="hello()">SayHi</button>
+    <button onClick="hello()">SayHi</button>
 ```
 
+## UNIT 02 - CHANGING AN ELEMENT CONTENT ON THE PAGE
+- CREATE AN HTML H1 WITH SOME CONTENT IN IT
+- CREATE A JAVASCRIPT FUNCTION THAT ACCESSES THE TAG AND CHANGE THE CONTENT OF THE ELEMENT
+
+```HTML
+    <h1>Good Morning</h1>
+    <button onClick="sayHello()">SayHi</button>
+```
+```JS
+    function sayHello() {
+            document.querySelector("h1").innerHTML = "Good Afternoon";
+        }
+```

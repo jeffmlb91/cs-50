@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
+        
+        //Creating a function that access a specific HTML TAG and changes its content
 
-        function hello() {
-            alert("Hello, World!");
+        function sayHello() {
+            document.querySelector("h1").innerHTML = "Good Afternoon";
         }
     </script>
     <title>JAVASCRIPT</title>
 </head>
 <body>
-    <button onClick="hello()">SayHi</button>
+    <h1>Good Morning</h1>
+    <button onClick="sayHello()">SayHi</button>
 </body>
 </html>
