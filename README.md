@@ -14,3 +14,16 @@
 ```
 - ADD AN ALERT AND DISPLAY THE SAME MESSAGE
 ```JS
+   // printing an alert on the browser
+     alert("Hello, World!");
+```
+- CREATE A FUNCTION AND DISPLAY THE ALERT BY PRESSING A BUTTON
+```JS
+function hello() {
+            alert("Hello, World!");
+        }
+```
+```HTML
+<button onClick="hello()">SayHi</button>
+```
+
