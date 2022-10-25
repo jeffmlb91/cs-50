@@ -40,3 +40,20 @@ function hello() {
             document.querySelector("h1").innerHTML = "Good Afternoon";
         }
 ```
+- OTHER EXAMPLE 
+```JS
+    function getTime() {
+            document.querySelector("h1").innerHTML =Date();
+        }
+```
+```HTML
+    <h1>What is today date & time is it?</h1>
+    <button onClick="getTime()">Get</button>
+```
+
+## CONDITIONS IN JAVACRIPT
+
+
+## FETCHING API
+- APi links free https://apipheny.io/free-api/
+https://catfact.ninja/fact
